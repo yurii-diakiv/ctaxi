@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(106, 106, 106);
+    height: 80px;
+}
+
+footer .contacts {
+    @media screen and (max-width: 550px) {    
+        display: none;
+    }
+}
